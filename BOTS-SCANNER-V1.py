@@ -14,7 +14,7 @@ print("BOT-SCANNER-V1")
 print("""###################################################################################################""")
 
 x = input("Put the Name of txt file example (mybot) :")
-
+print(" ")
 
 with open(f"{x}.txt") as f:
     if 'discord' in f.read():
