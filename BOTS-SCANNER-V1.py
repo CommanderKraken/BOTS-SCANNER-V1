@@ -25,6 +25,10 @@ while True:
 text = '\n'.join(lines)
 x = str(text)
 words = ["discord","pastebin","telegram"]
+print("""
+
+
+""")
 if "discord" in x:
     print("[!] Found Discord bot")
 elif "telegram" in x:
@@ -36,4 +40,5 @@ elif "pastebin" in x:
 elif "raw" in x:
     print("[!] Found raw text")
 else :
-    print("everything is ok")
+    print("Everything is ok")
+print(" ")
