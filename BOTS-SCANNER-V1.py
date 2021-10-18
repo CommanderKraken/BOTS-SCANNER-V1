@@ -39,6 +39,8 @@ elif "pastebin" in x:
     print("[!] Found pastebin url")
 elif "raw" in x:
     print("[!] Found raw text")
+elif "base64" in x:
+    print("found encrypted text !")
 else :
     print("Everything is ok")
 print(" ")
